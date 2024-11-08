@@ -1,7 +1,7 @@
 
 let cacheName = "Bella Pasta";
 let filesToCache = [
-  "/", "/index", "/cardapioM", "/cardapioD", "/cardapioC", "/js/main.js", "/css/style.css", "/css/cardapio.css", "/alfredo.jpg", "/bife.jpg", "/bolonhesa.jpg", "/brigadeiro.jpg", "/costela.jpg", "/estrogonofe.jpg", "/mousse.jpg", "/pesto.jpg", "/pudim.jpg",
+  "/", "/index", "/cardapioM", "/cardapioD", "/cardapioC", "/js/main.js", "/css/style.css", "/css/cardapio.css", "/images/alfredo.jpg", "/images/bife.jpg", "/images/bolonhesa.jpg", "/images/brigadeiro.jpg", "/images/costela.jpg", "/images/estrogonofe.jpg", "/images/mousse.jpg", "/images/pesto.jpg", "/images/pudim.jpg",
 ];
 
 /* Instalação do Service Worker e cache dos arquivos */
@@ -14,10 +14,10 @@ self.addEventListener("install", (e) => {
 });
 
 /* Interceptação de requisições e resposta com cache ou rede */
-self.addEventListener("fetch", (event) => {
-  event.respondWith(
-    caches.match(event.request).then((response) => {
-      return response || fetch(event.request);
+self.addEventListener("fetch", (e) => {
+  e.respondWith(
+    caches.match(e.request).then((response) => {
+      return response || fetch(e.request);
     })
   );
 });
