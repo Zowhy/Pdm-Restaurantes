@@ -11,6 +11,6 @@
   "license": "ISC",
   "dependencies": {
     "comida": "file:",
-    "serve": "^13.0.4"
+    "serve": "^14.2.4"
   }
 }
