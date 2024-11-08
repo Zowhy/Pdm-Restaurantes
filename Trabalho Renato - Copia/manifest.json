@@ -4,7 +4,7 @@
 
     "icons": [
         {
-            "src": "images/pwa-icon-256.png",
+            "src": "images/pwa-iicon-256.png",
             "sizes": "256x256",
             "type": "image/png"
         },
@@ -18,6 +18,11 @@
         "sizes": "256x256",
         "type": "image/png",
         "purpose": "maskable"
+    },  
+        {
+        "src": "images/pwa-iicon-512.png",
+        "sizes": "256x256",
+        "type": "image/png"
     }
     ],
     "lang":"pt-BR",
