@@ -1,7 +1,7 @@
 
 let cacheName = "Bella Pasta";
 let filesToCache = [
-  "/", "main.js", "/index", "/cardapioM", "/cardapioD", "/cardapioC", "/js/main.js", "/css/style.css", "/css/cardapio.css", "/images/alfredo.jpg", "/images/bife.jpg", "/images/bolonhesa.jpg", "/images/brigadeiro.jpg", "/images/costela.jpg", "/images/estrogonofe.jpg", "/images/mousse.jpg", "/images/pesto.jpg", "/images/pudim.jpg",
+  "/", "/main.js", "/index", "/cardapioM", "/cardapioD", "/cardapioC", "/js/main.js", "/css/style.css", "/css/cardapio.css", "/images/alfredo.jpg", "/images/bife.jpg", "/images/bolonhesa.jpg", "/images/brigadeiro.jpg", "/images/costela.jpg", "/images/estrogonofe.jpg", "/images/mousse.jpg", "/images/pesto.jpg", "/images/pudim.jpg",
 ];
 
 /* Instalação do Service Worker e cache dos arquivos */
