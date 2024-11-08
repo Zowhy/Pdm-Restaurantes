@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff9f2;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #8b0d0d;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  min-height: 80vh; 
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.cardapio-link {
+  text-decoration: none;
+  color: #000000;
+  font-weight: bold;
+  padding: 13px 25px;
+  background-color: #ffe7cd;
+  border-radius: 100px;
+  transition: background-color 0.3s;
+}
+
+.cardapio-link:hover {
+  background-color: #ffc7c7;
+}
